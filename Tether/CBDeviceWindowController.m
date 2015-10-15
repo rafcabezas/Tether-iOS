@@ -14,7 +14,7 @@
 #import <Security/Authorization.h>
 #import "Actions.h"
 
-const static uint16_t kDefaultLocalPortNumber = 8000;
+const static uint16_t kDefaultLocalPortNumber = 8080;
 const static uint16_t kDefaultRemotePortNumber = 8123;
 
 @interface CBDeviceWindowController ()

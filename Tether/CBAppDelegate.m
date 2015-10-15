@@ -20,6 +20,8 @@
     self.window.rootViewController = [[CBRootViewController alloc] init];
     [self.window makeKeyAndVisible];
     
+    [[UIApplication sharedApplication] setIdleTimerDisabled:YES];
+    
     return YES;
 }
 

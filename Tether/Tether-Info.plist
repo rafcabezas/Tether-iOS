@@ -28,6 +28,8 @@
 	<array>
 		<string>voip</string>
 	</array>
+	<key>UILaunchStoryboardName</key>
+	<string>iOSMain</string>
 	<key>UIRequiredDeviceCapabilities</key>
 	<array>
 		<string>armv7</string>

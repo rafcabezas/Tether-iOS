@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		053379F11BCBEA170039F73F /* iOSAssetCatalog copy.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 053379F01BCBEA170039F73F /* iOSAssetCatalog copy.xcassets */; settings = {ASSET_TAGS = (); }; };
+		05DEBD4C1BCFE73100B3C525 /* iOSMain.xib in Resources */ = {isa = PBXBuildFile; fileRef = 05DEBD4B1BCFE73100B3C525 /* iOSMain.xib */; settings = {ASSET_TAGS = (); }; };
 		17629344A9444BD29F36FD1A /* libPods-TetherMac.a in Frameworks */ = {isa = PBXBuildFile; fileRef = DF17F6ED75F54FB5ADE9E7C5 /* libPods-TetherMac.a */; };
 		8E2C05E4790549028265E799 /* libPods-Tether.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 78D94A36C5C54DD8B35132D1 /* libPods-Tether.a */; };
 		D90E3259182F07DC00A6F642 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D90E3258182F07DC00A6F642 /* Cocoa.framework */; };
@@ -14,7 +16,7 @@
 		D90E3269182F07DC00A6F642 /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = D90E3267182F07DC00A6F642 /* Credits.rtf */; };
 		D90E326C182F07DC00A6F642 /* CBMacAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D90E326B182F07DC00A6F642 /* CBMacAppDelegate.m */; };
 		D90E326F182F07DC00A6F642 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = D90E326D182F07DC00A6F642 /* MainMenu.xib */; };
-		D90E3271182F07DC00A6F642 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D90E3270182F07DC00A6F642 /* Images.xcassets */; };
+		D90E3271182F07DC00A6F642 /* MacAssetCatalog.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D90E3270182F07DC00A6F642 /* MacAssetCatalog.xcassets */; };
 		D90E3297182F18CC00A6F642 /* CBDeviceWindowController.m in Sources */ = {isa = PBXBuildFile; fileRef = D90E3295182F18CC00A6F642 /* CBDeviceWindowController.m */; };
 		D90E3298182F18CC00A6F642 /* CBDeviceWindowController.xib in Resources */ = {isa = PBXBuildFile; fileRef = D90E3296182F18CC00A6F642 /* CBDeviceWindowController.xib */; };
 		D931A611183012D600593FF9 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D931A610183012D600593FF9 /* Security.framework */; };
@@ -30,7 +32,6 @@
 		D9B767A5184A8734000566D6 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = D9B767A3184A8734000566D6 /* InfoPlist.strings */; };
 		D9B767A7184A8734000566D6 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D9B767A6184A8734000566D6 /* main.m */; };
 		D9B767AB184A8734000566D6 /* CBAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D9B767AA184A8734000566D6 /* CBAppDelegate.m */; };
-		D9B767AD184A8734000566D6 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D9B767AC184A8734000566D6 /* Images.xcassets */; };
 		D9B767C9184A88BA000566D6 /* main-mac.m in Sources */ = {isa = PBXBuildFile; fileRef = D9B767C8184A88BA000566D6 /* main-mac.m */; };
 		D9B767CC184A8991000566D6 /* CBRootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D9B767CB184A8991000566D6 /* CBRootViewController.m */; };
 		D9B767D2184A8B32000566D6 /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D9B767D1184A8B32000566D6 /* MobileCoreServices.framework */; };
@@ -90,11 +91,14 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		053379F01BCBEA170039F73F /* iOSAssetCatalog copy.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "iOSAssetCatalog copy.xcassets"; sourceTree = "<group>"; };
+		05DEBD4B1BCFE73100B3C525 /* iOSMain.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = iOSMain.xib; sourceTree = "<group>"; };
 		2CDD1E9FE263401C93089B68 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
-		3344A729C1604CC882D91F05 /* Pods.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.xcconfig; path = Pods/Pods.xcconfig; sourceTree = "<group>"; };
-		35C98DE2A22046F89D5AE95A /* Pods-TetherMac.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TetherMac.xcconfig"; path = "Pods/Pods-TetherMac.xcconfig"; sourceTree = "<group>"; };
-		3AD9B7FDD45A42F390016C26 /* Pods-Tether.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Tether.xcconfig"; path = "Pods/Pods-Tether.xcconfig"; sourceTree = "<group>"; };
+		45C2C370DD43245F91ACF934 /* Pods-TetherMac.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TetherMac.debug.xcconfig"; path = "Pods/Target Support Files/Pods-TetherMac/Pods-TetherMac.debug.xcconfig"; sourceTree = "<group>"; };
+		6746609893765F3B87BDC3C0 /* Pods-Tether.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Tether.release.xcconfig"; path = "Pods/Target Support Files/Pods-Tether/Pods-Tether.release.xcconfig"; sourceTree = "<group>"; };
 		78D94A36C5C54DD8B35132D1 /* libPods-Tether.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Tether.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8C7FAC091EC818E4E0276311 /* Pods-TetherMac.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TetherMac.release.xcconfig"; path = "Pods/Target Support Files/Pods-TetherMac/Pods-TetherMac.release.xcconfig"; sourceTree = "<group>"; };
+		8F576B7C066334048A0FE7CB /* Pods-Tether.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Tether.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Tether/Pods-Tether.debug.xcconfig"; sourceTree = "<group>"; };
 		D90E3255182F07DC00A6F642 /* TetherMac.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TetherMac.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D90E3258182F07DC00A6F642 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
 		D90E325B182F07DC00A6F642 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
@@ -108,7 +112,7 @@
 		D90E326A182F07DC00A6F642 /* CBMacAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CBMacAppDelegate.h; sourceTree = "<group>"; };
 		D90E326B182F07DC00A6F642 /* CBMacAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CBMacAppDelegate.m; sourceTree = "<group>"; };
 		D90E326E182F07DC00A6F642 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
-		D90E3270182F07DC00A6F642 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		D90E3270182F07DC00A6F642 /* MacAssetCatalog.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = MacAssetCatalog.xcassets; sourceTree = "<group>"; };
 		D90E3277182F07DC00A6F642 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
 		D90E3294182F18CC00A6F642 /* CBDeviceWindowController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CBDeviceWindowController.h; sourceTree = "<group>"; };
 		D90E3295182F18CC00A6F642 /* CBDeviceWindowController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CBDeviceWindowController.m; sourceTree = "<group>"; };
@@ -137,7 +141,6 @@
 		D9B767A8184A8734000566D6 /* Tether-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Tether-Prefix.pch"; sourceTree = "<group>"; };
 		D9B767A9184A8734000566D6 /* CBAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CBAppDelegate.h; sourceTree = "<group>"; };
 		D9B767AA184A8734000566D6 /* CBAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CBAppDelegate.m; sourceTree = "<group>"; };
-		D9B767AC184A8734000566D6 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		D9B767C8184A88BA000566D6 /* main-mac.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "main-mac.m"; sourceTree = "<group>"; };
 		D9B767CA184A8991000566D6 /* CBRootViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CBRootViewController.h; sourceTree = "<group>"; };
 		D9B767CB184A8991000566D6 /* CBRootViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CBRootViewController.m; sourceTree = "<group>"; };
@@ -190,6 +193,17 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1D11A0B364ACB054F6DE8F4A /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				8F576B7C066334048A0FE7CB /* Pods-Tether.debug.xcconfig */,
+				6746609893765F3B87BDC3C0 /* Pods-Tether.release.xcconfig */,
+				45C2C370DD43245F91ACF934 /* Pods-TetherMac.debug.xcconfig */,
+				8C7FAC091EC818E4E0276311 /* Pods-TetherMac.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		D90E324C182F07DC00A6F642 = {
 			isa = PBXGroup;
 			children = (
@@ -200,9 +214,7 @@
 				D90E3257182F07DC00A6F642 /* Frameworks */,
 				D9FA3181190DB9A0003CA4E0 /* badvpn.xcodeproj */,
 				D90E3256182F07DC00A6F642 /* Products */,
-				3344A729C1604CC882D91F05 /* Pods.xcconfig */,
-				3AD9B7FDD45A42F390016C26 /* Pods-Tether.xcconfig */,
-				35C98DE2A22046F89D5AE95A /* Pods-TetherMac.xcconfig */,
+				1D11A0B364ACB054F6DE8F4A /* Pods */,
 			);
 			sourceTree = "<group>";
 		};
@@ -260,7 +272,8 @@
 				D90E3295182F18CC00A6F642 /* CBDeviceWindowController.m */,
 				D90E3296182F18CC00A6F642 /* CBDeviceWindowController.xib */,
 				D90E326D182F07DC00A6F642 /* MainMenu.xib */,
-				D90E3270182F07DC00A6F642 /* Images.xcassets */,
+				05DEBD4B1BCFE73100B3C525 /* iOSMain.xib */,
+				D90E3270182F07DC00A6F642 /* MacAssetCatalog.xcassets */,
 				D90E325F182F07DC00A6F642 /* Supporting Files */,
 			);
 			name = TetherMac;
@@ -310,7 +323,7 @@
 				D9B767CB184A8991000566D6 /* CBRootViewController.m */,
 				D9B767A9184A8734000566D6 /* CBAppDelegate.h */,
 				D9B767AA184A8734000566D6 /* CBAppDelegate.m */,
-				D9B767AC184A8734000566D6 /* Images.xcassets */,
+				053379F01BCBEA170039F73F /* iOSAssetCatalog copy.xcassets */,
 				D9B767A1184A8734000566D6 /* Supporting Files */,
 			);
 			name = "Tether-iOS";
@@ -363,6 +376,7 @@
 				D90E3253182F07DC00A6F642 /* Resources */,
 				551353FA86374048AD71A2B9 /* Copy Pods Resources */,
 				D9792EE818FB5744002F2E28 /* CopyFiles */,
+				94A2A8027B8EC24D27804A7A /* Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -401,6 +415,7 @@
 				D9B76796184A8734000566D6 /* Frameworks */,
 				D9B76797184A8734000566D6 /* Resources */,
 				7BDBC3252F114969AA6EA23A /* Copy Pods Resources */,
+				5E9A96E9E0E042DCC657F8C3 /* Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -422,6 +437,7 @@
 				ORGANIZATIONNAME = "Christopher Ballinger";
 				TargetAttributes = {
 					D9B76798184A8734000566D6 = {
+						DevelopmentTeam = 767Y8XL356;
 						SystemCapabilities = {
 							com.apple.BackgroundModes = {
 								enabled = 1;
@@ -472,7 +488,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				D90E3263182F07DC00A6F642 /* InfoPlist.strings in Resources */,
-				D90E3271182F07DC00A6F642 /* Images.xcassets in Resources */,
+				D90E3271182F07DC00A6F642 /* MacAssetCatalog.xcassets in Resources */,
 				D90E3269182F07DC00A6F642 /* Credits.rtf in Resources */,
 				D90E326F182F07DC00A6F642 /* MainMenu.xib in Resources */,
 				D90E3298182F18CC00A6F642 /* CBDeviceWindowController.xib in Resources */,
@@ -484,7 +500,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				D9B767A5184A8734000566D6 /* InfoPlist.strings in Resources */,
-				D9B767AD184A8734000566D6 /* Images.xcassets in Resources */,
+				053379F11BCBEA170039F73F /* iOSAssetCatalog copy.xcassets in Resources */,
+				05DEBD4C1BCFE73100B3C525 /* iOSMain.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -503,7 +520,22 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Pods-TetherMac-resources.sh\"\n";
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TetherMac/Pods-TetherMac-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5E9A96E9E0E042DCC657F8C3 /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Tether/Pods-Tether-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		7BDBC3252F114969AA6EA23A /* Copy Pods Resources */ = {
@@ -518,7 +550,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Pods-Tether-resources.sh\"\n";
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Tether/Pods-Tether-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		8D5DF3B886B344518F0ABB94 /* Check Pods Manifest.lock */ = {
@@ -534,6 +566,21 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		94A2A8027B8EC24D27804A7A /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TetherMac/Pods-TetherMac-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		DEF537F12E604F69A35A5614 /* Check Pods Manifest.lock */ = {
@@ -710,9 +757,8 @@
 		};
 		D90E3287182F07DC00A6F642 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 35C98DE2A22046F89D5AE95A /* Pods-TetherMac.xcconfig */;
+			baseConfigurationReference = 45C2C370DD43245F91ACF934 /* Pods-TetherMac.debug.xcconfig */;
 			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "3rd Party Mac Developer Application";
 				COMBINE_HIDPI_IMAGES = YES;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
@@ -735,9 +781,8 @@
 		};
 		D90E3288182F07DC00A6F642 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 35C98DE2A22046F89D5AE95A /* Pods-TetherMac.xcconfig */;
+			baseConfigurationReference = 8C7FAC091EC818E4E0276311 /* Pods-TetherMac.release.xcconfig */;
 			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "3rd Party Mac Developer Application";
 				COMBINE_HIDPI_IMAGES = YES;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
@@ -804,11 +849,12 @@
 		};
 		D9B767C1184A8735000566D6 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 3AD9B7FDD45A42F390016C26 /* Pods-Tether.xcconfig */;
+			baseConfigurationReference = 8F576B7C066334048A0FE7CB /* Pods-Tether.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
@@ -823,6 +869,7 @@
 				INFOPLIST_FILE = "Tether/Tether-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				WRAPPER_EXTENSION = app;
@@ -831,11 +878,12 @@
 		};
 		D9B767C2184A8735000566D6 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 3AD9B7FDD45A42F390016C26 /* Pods-Tether.xcconfig */;
+			baseConfigurationReference = 6746609893765F3B87BDC3C0 /* Pods-Tether.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
@@ -846,6 +894,7 @@
 				INFOPLIST_FILE = "Tether/Tether-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
